@@ -1,0 +1,78 @@
+body {
+  background-color: #505050;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin: 0;
+  height: 75px;
+  width: 100%;
+  background-color: #00BFFF;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.header, h3 {
+  font-weight: 900;
+}
+
+.id-card {
+  margin: auto;
+  margin-top: 50px;
+  height: 500px;
+  width: 75vw;
+  background-color: white;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  padding-left: 50px;
+}
+
+.button {
+  color: white;
+  font-size: xx-large;
+  background-color: #505050;
+}
+
+.button:hover {
+  background-color: #00BFFF;
+}
+
+#idTicker {
+  position: relative;
+  margin-left: 90%;
+}
+
+#name {
+  position: relative;
+  margin-left: 5%;
+  border-bottom: 3px solid #00BFFF;
+}
+
+#location {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+#title {
+  position: relative;
+  margin-left: 10%;
+}
+
+#employer {
+  position: relative;
+  margin-left: 10%;
+}
+
+#movies {
+  position: relative;
+  margin-left: 10%;
+}
+
+.moviesList, li {
+  margin-top: 10px;
+}
